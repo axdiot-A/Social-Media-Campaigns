@@ -1,0 +1,915 @@
+/*Reset some styles and set the background color and font of the page*/
+body{
+    font-family: sans-serif;
+    min-height: 10vh;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    cursor: url(../images/cursor.png) , auto; 
+}
+/*Style the header with background color, height, padding and border bottom*/
+header{
+ display:flex;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    padding-left: 20px;
+    border-bottom: 1px solid black;
+}
+/*Style the heading text in header*/
+h1{
+    color:aliceblue;
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Style the navigation bar menu */
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+/* Style the list items in navigation bar*/
+ul li{
+    margin-right: 20px;
+}
+/* Style the links in navigation var */
+ul li a{
+    text-decoration: none;
+    color:seagreen;
+    font-size: 16px;
+}
+/* Style the links for hover over */
+ul li a:hover{
+    background-color: darkblue;
+    transition: 0.5s;
+    width:100%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: burlywood;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+ 
+
+}
+
+/* Style the dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the dropdown-content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* Dropdown Button */
+.dropbtn1 {
+  background-color: indianred;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  
+}
+
+/* Style the dropdown-content */
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the drop down content*/
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1 {background-color: #3e8e41;}
+ 
+ 
+
+
+/* Style the color of link*/
+a{
+    text-decoration: none;
+    color: green;
+}
+/* Style to underline and its color */
+.underline{
+    text-decoration: underline;
+    padding: 0 70px;
+    color: orangered;
+}
+/* Style the underline and its color */
+.underline1{
+    text-decoration: underline;
+    padding: 0 70px;
+    color: darkblue;
+}
+/* Style the p div */
+div p {
+    font-family: Arial, sans-serif; /* Change font family */
+    font-size: 18px; /* Change font size */
+    line-height: 1.6; /* Adjust line height */
+    color: #333; /* Change text color */
+    margin: 20px 0; /* Add margin for top and bottom */
+    padding: 0 100px; /* Add padding for left and right */
+}
+
+/* Style the Imag class */
+.Imag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+/* Style the Imag1 class*/
+.Imag1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+/* Style the motion of 3d transitions */
+.motion{
+  width: 200px;
+  height: 60px;
+  background: aquamarine;
+  transition-property: width;
+  transition-duration: 5s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+/* Style the hover of motion */
+.motion:hover {
+  width: 300px;
+}
+/* Style the container and heading class */
+.container .heading{
+    width:85%;
+    margin: auto;
+    text-align: center;
+}
+/* Style the container and heading class and h1 */
+.container .heading
+ h1{
+    color: #f15b43;
+    font-size: 50px;
+    margin-top: 50px;
+ }
+ /* Style the wrapper */
+ .wrapper{
+    width:85%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ /* Style the content */
+ .content{
+    width: 50%;
+    margin: 0px 25px;
+
+ }
+ /* Style the content h2 */
+ .content h2{
+    font-size: 30px;
+    color:#284966;
+ }
+ /* Style the content p */
+.content p{
+    color: #666;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+/* Style the image class */
+.image{
+    width: 50%;
+
+}
+/* Style the image class of image */
+.image img{
+    width: 100%;
+    height: auto;
+}
+/* Style the content and btn */
+.content .btn{
+    position: relative;
+    margin-top: 30px;
+    text-decoration: none;
+    border: 2px solid #f15b43;
+    font-size: 19px;
+    color: #f15b43;
+    padding: 13px 16px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+/* Style the content and btn hover */
+.content .btn:hover{
+    color: darkred;
+}
+/* Style the image1 class */
+.image1{
+    width:100%;
+    position: relative;
+}
+/* Style the image1 class of image */
+.image1 img{
+    width: 100%;
+    height: auto;
+}
+/* Style the image1 and bottom button */
+.image1 .bottom-button{
+   position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* Style the image2 class */
+.image2{
+    width: 100%;
+    position: relative;
+}
+/* Style the image2 class image */
+.image2 img{
+    width: 100%;
+    height: auto;
+}
+/* Style the image3 class */
+.image3{
+    width:100%;
+    position: relative;
+}
+/* Style the image3 class of image */
+.image3 img{
+    width: 100%;
+    height: auto;
+}
+/* Style the parent content */
+#parents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+/* Styling for the heading in the parental section */
+.parent-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Styling for the heading text in the parental section */
+.parent-heading h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: #202020;
+    color: white;
+    padding: 10px 20px;
+}
+/* Styling for additional text in parental heading*/
+.parent-heading span{
+    font-size: 1.3rem;
+    color:#252525;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/* Styling for the container of parental*/
+.parent-box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/* Styling for the parental boxes */
+.parent-box{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+/* Styling for profile image in parental */
+.profile-img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+/* Styling for profile images within image container */
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* Styling for the profile section in parental*/
+.profile{
+    display: flex;
+    align-items: center;
+}
+/* Style for the name and user information in parental */
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+/* Styling for the name of parents */
+.name-user strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+/* Style for additional user information */
+.name-user span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+/* Styling for the parental content */
+.parents{
+    color:rgb(222, 222, 30);
+}
+/* Styling for the box top section*/
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* Styling for the parents comment in parental */
+.parent-comment{
+    font-size: 0.9rem;
+    color: #4b4b4b;
+}
+/* Hover effect for parental boxes*/
+.parent-box:hover{
+    transform: translateY(-10px);
+    transition: all ease;
+}
+/* Style the image container class */
+.image-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* Style the image container class of image */
+.image-container img{
+    width: 30%;
+    height: auto;
+}
+/* Style the image container1 class */
+.image-container1{
+    display: flex;
+    justify-content: space-between;
+}
+/* Style the image container1 class of image */
+.image-container1 img{
+    width: 30%;
+    height: auto;
+}
+/* Style the image container2 class */
+.image-container2{
+    display: flex;
+    justify-content: space-between;
+}
+/* Style the image container class of image */
+.image-container2 img{
+    width: 700px;
+    height: 600px;
+
+}
+/* Style the highlight yellow */
+.highlight{
+    background-color: yellow;
+}
+/* Style the scroll container */
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+/* Style the scroll container of image */
+div.scroll-container img {
+  padding: 10px;
+}
+/* Style the image with text */
+.image-with-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+/* Style the image with text of image */
+.image-with-text img{
+    width: 500px;
+    height: auto;
+    margin-right: 10px;
+
+}
+/* Style the image with text of text */
+.image-with-text .text{
+    flex: 1;
+}
+/* Style the image with text h3 */
+.image-with-text h3{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0 30px;
+}
+/* Style the image with text of p */
+.image-with-text p{
+    font-size: 1em;
+    margin-top: 0;
+    padding-left: 30px;
+    
+}
+/* Style the search-form button */
+.search-form button {
+    padding: 5px 10px;
+    background-color: burlywood;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+/* Style the center-content */
+.center-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+/* Style the center content of image */
+.center-content img{
+    width: 600px;
+    height: auto;
+}
+/* Style the center content of p */
+.center-content p{
+    font-family: inherit;
+    font-size: 20px;
+   margin-left: -50px; 
+  
+}
+/* Style the footer */
+footer
+{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+    color: aliceblue;
+    border-top: 4px solid #ccc;
+    bottom: -20px;
+   
+    
+   
+}
+/*Style the left section of the footer*/
+#fleft
+{
+    float: none;
+    text-align: center;
+}
+/*Style the right section of the footer*/
+#fright
+{
+    float: none;
+     text-align: center;
+}
+/* Style the links in the right section of the footer*/
+#fright a{
+    color:aliceblue;
+    margin-right: 10px;
+    text-decoration: none;
+}
+/* Style the links in the right section of the footer with hover over*/
+#fright a:hover
+{
+    background-color: burlywood;
+    transition: 0.5s;
+}
+
+/*Style the footer text bottom*/
+.fbottom{
+    padding: 20px;
+    text-align: center;
+
+ }
+/* Style f bottom of p */
+.fbottom p{
+    font-size: 20px;
+    color: yellowgreen;
+}
+
+/* Style the form */
+input[type=text], input[type=email], input[type=password], input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+/* Style the form */
+input[type=submit], input[type=reset], input[type=button] {
+  background-color: #45a049;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Style the form button hover */
+input[type=submit]:hover {
+  background-color: lightseagreen;
+}
+/* Style the check and dropbtn content */
+#check, .dropbtn{
+    display: none;
+}
+/* Style the media responsive of width 1024px */
+@media only screen and (max-width: 1024px) {
+  
+  header{
+    height: auto;
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+    padding: 10px;
+  }
+}
+/* Style the media responsive of width 768px */
+@media only screen and (max-width: 768px) {
+  
+  header{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+  }
+
+    /* Logo */
+    h1 {
+        font-size: 30px; /* Decrease logo font size for smaller screens */
+    }
+
+ 
+     ul {
+        display: none;
+
+    }
+
+ #check,.dropbtn{
+    display: block;
+    margin-left: auto;
+  }
+
+    .dropdown-content {
+        top: calc(60% + 20px); /* Adjust to position below the middle of the button */
+        margin-left: -140px;
+    }
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+}
+.container .heading h1{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .wrapper{
+        flex-direction: column;
+        margin: 30px auto;
+    }
+    .image-container img{
+        max-width: 100%;
+        height: auto;
+    }
+  
+
+.Imag,
+.Imag img {
+    
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+}
+.Imag1,
+.Imag1 img {
+    
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+}
+
+    .content,
+    .image{
+        width: 100%;
+        margin: 0;
+    }
+    .content h2{
+        font-size: 24px;
+    }
+    .image img{
+        width: 100%;
+    }
+    .image1 .bottom-button{
+        top: 70%;
+
+    }
+    .parent-heading h1{
+        font-size: 28px;
+    }
+    .parent-box{
+        width: 100%;
+    }
+    .profile-img{
+        width: 40px;
+        height: 40px;
+    }
+    .parent-comment{
+        font-size: 14px;
+    }
+  
+    .image-with-text img{
+        width: 100px;
+        margin-right: 0;
+    }
+    .Youtube,
+    .Youtube iframe{
+        max-width: 100%;
+        height: auto;
+    }
+    .Map,
+    .Map iframe{
+        max-width: 100%;
+        height: auto;
+    }
+    .center-content img{
+          max-width: 90%;
+        height: auto;
+    }
+    .image-container2 img{
+        max-width: 50%;
+        height: auto;
+    }
+    
+
+    /* Footer */
+     footer{
+        width: 100%;
+            }
+    /* Style the the mobile view reponsive for the section left of the footer*/
+    footer #fleft, footer #fright{
+        float: none;
+        text-align: center;
+        bottom: 40px;
+    }
+     /* Style the the mobile view reponsive for the section left of the footer*/
+    footer #fright{
+        
+        bottom: 30px;
+        
+    }
+    
+}
+/* Style the media responsive of width 425px */
+@media only screen and (max-width: 425px) {
+  
+  header{
+    
+    width: 150%;
+    
+   
+  }
+
+    /* Logo */
+    h1 {
+        font-size: 30px; /* Decrease logo font size for smaller screens */
+    }
+
+ 
+     ul {
+        display: none;
+
+    }
+
+ #check,.dropbtn{
+    display: block;
+     margin-left: auto;
+
+  }
+
+    .dropdown-content {
+        top: calc(60% + 20px); /* Adjust to position below the middle of the button */
+        margin-left: -140px;
+    }
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+}
+.container .heading h1{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .wrapper{
+        flex-direction: column;
+        margin: 30px auto;
+    }
+    .image-container img{
+        max-width: 100%;
+        height: auto;
+    }
+  
+
+.Imag,
+.Imag img {
+    
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+}
+.Imag1,
+.Imag1 img {
+    
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+}
+
+    .content,
+    .image{
+        width: 100%;
+        margin: 0;
+    }
+    .content h2{
+        font-size: 24px;
+    }
+    .image img{
+        width: 100%;
+    }
+    .image1 .bottom-button{
+        top: 70%;
+
+    }
+    .parent-heading h1{
+        font-size: 28px;
+    }
+    .parent-box{
+        width: 100%;
+    }
+    .profile-img{
+        width: 40px;
+        height: 40px;
+    }
+    .parent-comment{
+        font-size: 14px;
+    }
+  
+    .image-with-text img{
+        width: 100px;
+        margin-right: 0;
+    }
+    .Youtube,
+    .Youtube iframe{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .center-content img{
+          max-width: 90%;
+        height: auto;
+    }
+    .image-container2 img{
+        max-width: 50%;
+        height: auto;
+    }
+    
+
+    /* Footer */
+     footer{
+        width: 100%;
+
+            }
+    /* Style the the mobile view reponsive for the section left of the footer*/
+    footer #fleft, footer #fright{
+        float: none;
+        text-align: center;
+        bottom: 40px;
+    }
+     /* Style the the mobile view reponsive for the section left of the footer*/
+    footer #fright{
+        
+        bottom: 30px;
+        
+    }
+    
+}
+
+
+
+
